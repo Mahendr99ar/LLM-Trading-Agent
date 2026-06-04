@@ -112,7 +112,7 @@ Stop loss at 5%, take profit at 10%, 0.1% transaction cost per trade.
 - FinBERT option if you have `transformers` + `torch` installed — noticeably better on ambiguous headlines
 ---
  
-## ⚠️ Known issues / things to fix
+## Known issues / things to fix
  
 - **Backtest sentiment is a single fixed value** for the entire historical period — ideally you'd need timestamped historical sentiment, which requires a news archive API
 - **FinBERT loads a new pipeline every call** — in production you'd cache the model at startup
